@@ -17,6 +17,7 @@ ___
 - ## How to predict
   - Locate wav file in './predict_audio'.
   - You can use the file you recorded, or another file
+  - Download pth file in my release, locate file in './pth'.
 
     ```
     python predict.py
