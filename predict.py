@@ -15,7 +15,7 @@ from PIL import Image
 
 
 
-load_path = './pth/DenseNet121_img_aihub.pth'
+load_path = './pth/DenseNet.pth'
 load_weights = torch.load(load_path, map_location={'cuda:0': 'cpu'})
 # model = torchvision.models.densenet121(pretrained=False)
 model = torchvision.models.densenet121(pretrained=True)
